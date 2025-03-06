@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
@@ -6,7 +6,7 @@
     <fixedIngredientFilter>
       <categories>
         <li>FoodRaw</li>
-		 <li>VCE_Condiments</li>
+        <li>VCE_Condiments</li>
       </categories>
       <specialFiltersToDisallow>
         <li>AllowPlantFood</li>
@@ -15,7 +15,7 @@
     <defaultIngredientFilter>
       <categories>
         <li>FoodRaw</li>
-		<li>VCE_Condiments</li>
+        <li>VCE_Condiments</li>
       </categories>
       <disallowedCategories>
         <li>EggsFertilized</li>
@@ -24,7 +24,7 @@
         <li>Meat_Human</li>
         <li>Meat_Megaspider</li>
         <li>InsectJelly</li>
-		 <li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
       </disallowedThingDefs>
     </defaultIngredientFilter>
     <workSkill>Cooking</workSkill>
@@ -34,18 +34,17 @@
   <RecipeDef ParentName="VCE_CookHauteMealBase">
     <defName>VCE_CookMealHaute</defName>
     <label>cook haute meal</label>
-    <description>Compose an opulent symphony of flavor and form, where the finest ingredients and masterful technique unite in a transcendent culinary masterpiece.</description>
+    <description>Compose an opulent symphony of flavor and form, where the finest ingredients and
+      masterful technique unite in a transcendent culinary masterpiece.</description>
     <jobString>Cooking haute meal.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>
     <ingredientValueGetterClass>VanillaCookingExpanded.IngredientValueGetter_NutritionWithExtraIngredient</ingredientValueGetterClass>
-	<recipeUsers>
-		<li>VCE_ElectricHauteSection</li>	
-			
-	</recipeUsers>
-	
+    <recipeUsers>
+      <li>VCE_ElectricHauteSection</li>
+    </recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -64,7 +63,7 @@
         </filter>
         <count>0.5</count>
       </li>
-	   <li>
+      <li>
         <filter>
           <categories>
             <li>PlantFoodRaw</li>
@@ -72,7 +71,7 @@
         </filter>
         <count>0.5</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <categories>
             <li>VCE_Condiments</li>
@@ -80,7 +79,7 @@
         </filter>
         <count>1</count>
       </li>
-	   <li>
+      <li>
         <filter>
           <categories>
             <li>VCE_Condiments</li>
@@ -95,12 +94,12 @@
     <skillRequirements>
       <Cooking>10</Cooking>
     </skillRequirements>
+    <modExtensions>
+      <li Class="VanillaCookingExpanded.Recipe_Extension">
+        <individualIngredients>true</individualIngredients>
+      </li>
+    </modExtensions>
   </RecipeDef>
-  
-  
 
- 
-
- 
 
 </Defs>
