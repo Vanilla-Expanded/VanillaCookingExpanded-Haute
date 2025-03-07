@@ -30,6 +30,7 @@ namespace VanillaCookingExpandedHaute
                 if (compArt != null)
                 {
                     compArt.JustCreatedBy(worker);
+                    compArt.authorPawn= worker;
                     if (compQuality != null && (int)compQuality.Quality >= 4)
                     {
                         TaleRecorder.RecordTale(TaleDefOf.CraftedArt, worker, product);

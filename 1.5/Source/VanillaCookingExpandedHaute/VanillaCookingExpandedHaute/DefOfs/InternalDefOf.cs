@@ -29,6 +29,8 @@ namespace VanillaCookingExpandedHaute
         public static ThoughtDef VCE_AteHauteMeal_Three;
         public static ThoughtDef VCE_AteHauteMeal_Four;
         public static ThoughtDef VCE_AteHauteMeal_Five;
+        public static ThoughtDef VCE_AteHauteMeal_Social_Author;
+        public static ThoughtDef VCE_AteHauteMeal_Social_Sharing;
 
 
 

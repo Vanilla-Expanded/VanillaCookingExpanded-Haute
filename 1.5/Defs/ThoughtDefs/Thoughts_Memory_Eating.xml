@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!-- ======= Ingredient based thoughts ========= -->
-
-
-	<ThoughtDef>	
+	<ThoughtDef>
 		<defName>VCE_AteHauteMeal</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
@@ -15,10 +12,9 @@
 				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
 				<baseMoodEffect>8</baseMoodEffect>
 			</li>
-		</stages>	
-		
+		</stages>
 	</ThoughtDef>
-	<ThoughtDef>	
+	<ThoughtDef>
 		<defName>VCE_AteHauteMeal_Two</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
@@ -29,10 +25,9 @@
 				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
 				<baseMoodEffect>8</baseMoodEffect>
 			</li>
-		</stages>	
-		
+		</stages>
 	</ThoughtDef>
-	<ThoughtDef>	
+	<ThoughtDef>
 		<defName>VCE_AteHauteMeal_Three</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
@@ -43,10 +38,9 @@
 				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
 				<baseMoodEffect>8</baseMoodEffect>
 			</li>
-		</stages>	
-		
+		</stages>
 	</ThoughtDef>
-	<ThoughtDef>	
+	<ThoughtDef>
 		<defName>VCE_AteHauteMeal_Four</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
@@ -57,26 +51,55 @@
 				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
 				<baseMoodEffect>8</baseMoodEffect>
 			</li>
-		</stages>	
-		
+		</stages>
 	</ThoughtDef>
-	<ThoughtDef>	
+	<ThoughtDef>
 		<defName>VCE_AteHauteMeal_Five</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
-		<durationDays>1</durationDays>
+		
 		<stages>
 			<li>
 				<label>ate haute meal</label>
 				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
 				<baseMoodEffect>8</baseMoodEffect>
 			</li>
-		</stages>	
-		
+		</stages>
 	</ThoughtDef>
-
-
-
-
-
+	<ThoughtDef>
+		<defName>VCE_AteHauteMeal_Social_Author</defName>
+		<thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
+		<stackLimit>10</stackLimit>
+		<durationDays>10</durationDays>
+		<maxCumulatedOpinionOffset>50</maxCumulatedOpinionOffset>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>cooked a haute meal for me</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>VCE_AteHauteMeal_Social_Sharing</defName>
+		<thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
+		<stackLimit>10</stackLimit>
+		<durationDays>20</durationDays>
+		<maxCumulatedOpinionOffset>50</maxCumulatedOpinionOffset>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>shared the dining experience with me</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

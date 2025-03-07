@@ -16,6 +16,8 @@ namespace VanillaCookingExpandedHaute
 
         private TaleReference taleRef;
 
+        public Pawn authorPawn = null;
+
         public TaggedString AuthorName
         {
             get
@@ -154,18 +156,10 @@ namespace VanillaCookingExpandedHaute
             Scribe_Values.Look(ref authorNameInt, "authorName", null);
             Scribe_Values.Look(ref titleInt, "title", null);
             Scribe_Deep.Look(ref taleRef, "taleRef");
+            Scribe_References.Look(ref authorPawn, "authorPawn");        
         }
 
-       /* public override string CompInspectStringExtra()
-        {
-            if (!Active)
-            {
-                return null;
-            }
-            return (string)("Author".Translate() + ": " + AuthorName) + ("\n" + "Title".Translate() + ": " + Title);
-        }*/
-
-      
+     
 
         public override void PostDestroy(DestroyMode mode, Map previousMap)
         {
