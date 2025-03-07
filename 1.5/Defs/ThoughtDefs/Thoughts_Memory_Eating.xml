@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======= Ingredient based thoughts ========= -->
+
+
+	<ThoughtDef>	
+		<defName>VCE_AteHauteMeal</defName>
+		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
+		<stackLimit>100</stackLimit>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate haute meal</label>
+				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>	
+		
+	</ThoughtDef>
+	<ThoughtDef>	
+		<defName>VCE_AteHauteMeal_Two</defName>
+		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
+		<stackLimit>100</stackLimit>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate haute meal</label>
+				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>	
+		
+	</ThoughtDef>
+	<ThoughtDef>	
+		<defName>VCE_AteHauteMeal_Three</defName>
+		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
+		<stackLimit>100</stackLimit>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate haute meal</label>
+				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>	
+		
+	</ThoughtDef>
+	<ThoughtDef>	
+		<defName>VCE_AteHauteMeal_Four</defName>
+		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
+		<stackLimit>100</stackLimit>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate haute meal</label>
+				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>	
+		
+	</ThoughtDef>
+	<ThoughtDef>	
+		<defName>VCE_AteHauteMeal_Five</defName>
+		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
+		<stackLimit>100</stackLimit>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate haute meal</label>
+				<description>A transcendent encounter with flavor. Every delicate note of the meal unfolds like a masterpiece, elevating my senses to realms of pure culinary artistry.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>	
+		
+	</ThoughtDef>
+
+
+
+
+
+</Defs>

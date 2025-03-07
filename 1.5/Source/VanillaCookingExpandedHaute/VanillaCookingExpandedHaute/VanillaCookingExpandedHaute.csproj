@@ -297,8 +297,13 @@
     <Compile Include="Comps\CompFoodArt.cs" />
     <Compile Include="Comps\Properties\CompProperties_FoodArt.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Harmony\GenRecipe_PostProcessProduct.cs" />
+    <Compile Include="Harmony\HarmonyUtility.cs" />
+    <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_HauteMeal.cs" />
     <Compile Include="ITabs\ITab_FoodArt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticCollections\StaticCollections.cs" />
+    <Compile Include="Thought\Thought_HauteMeal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -32,10 +32,7 @@ namespace VanillaCookingExpandedHaute
         {
             get
             {
-                if (parent.StyleSourcePrecept != null)
-                {
-                    return parent.StyleSourcePrecept.LabelCap;
-                }
+                
                 if (titleInt.NullOrEmpty())
                 {
                     Log.Error("CompArt got title but it wasn't configured.");
@@ -82,11 +79,11 @@ namespace VanillaCookingExpandedHaute
 
         public override string TransformLabel(string label)
         {
-            if (Active && parent.StyleSourcePrecept != null)
+            if (!titleInt.NullOrEmpty())
             {
                 return Title;
-            }
-            return base.TransformLabel(label);
+
+            }return label;
         }
 
         public void InitializeArt(ArtGenerationContext source)
@@ -159,14 +156,16 @@ namespace VanillaCookingExpandedHaute
             Scribe_Deep.Look(ref taleRef, "taleRef");
         }
 
-        public override string CompInspectStringExtra()
+       /* public override string CompInspectStringExtra()
         {
             if (!Active)
             {
                 return null;
             }
             return (string)("Author".Translate() + ": " + AuthorName) + ("\n" + "Title".Translate() + ": " + Title);
-        }
+        }*/
+
+      
 
         public override void PostDestroy(DestroyMode mode, Map previousMap)
         {

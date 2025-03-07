@@ -13,14 +13,18 @@
 			<MarketValue>100</MarketValue>
 			<WorkToMake>7500</WorkToMake>
 			<Nutrition>1</Nutrition>
-			 <Beauty>10</Beauty>
+			<Beauty>10</Beauty>
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>
 			<optimalityOffsetHumanlikes>30</optimalityOffsetHumanlikes>
-		
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="VanillaCookingExpandedHaute.IngestionOutcomeDoer_HauteMeal">
+         
+				</li>
+			</outcomeDoers>
 		</ingestible>
 		<inspectorTabs>
 			<li>VanillaCookingExpandedHaute.ITab_FoodArt</li>
