@@ -10,18 +10,30 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>70</MarketValue>
+			<MarketValue>100</MarketValue>
 			<WorkToMake>7500</WorkToMake>
-			<Nutrition>0.7</Nutrition>
+			<Nutrition>1</Nutrition>
+			 <Beauty>10</Beauty>
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>
-			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
-			<tasteThought>VCE_AteGourmetMeal</tasteThought>
+			<optimalityOffsetHumanlikes>30</optimalityOffsetHumanlikes>
+		
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
+		<inspectorTabs>
+			<li>VanillaCookingExpandedHaute.ITab_FoodArt</li>
+		</inspectorTabs>
 		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VanillaCookingExpandedHaute.CompProperties_FoodArt">
+				<nameMaker>VCE_MealNamerArt</nameMaker>
+				<descriptionMaker>VCE_MealArtDescriptionRoot</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+			</li>
 			<li Class="GraphicCustomization.CompProperties_GraphicCustomization">
 				<customizable>false</customizable>
 				<customizationTitle>Haute Customization</customizationTitle>
@@ -251,7 +263,6 @@
 							</li>
 						</texVariants>
 					</li>
-					
 					<li>
 						<name>Ingredient2</name>
 						<texVariants>
@@ -297,7 +308,6 @@
 							</li>
 						</texVariants>
 					</li>
-					
 					<li>
 						<name>Ingredient3</name>
 						<texVariants>
@@ -343,7 +353,6 @@
 							</li>
 						</texVariants>
 					</li>
-					
 				</graphics>
 			</li>
 		</comps>

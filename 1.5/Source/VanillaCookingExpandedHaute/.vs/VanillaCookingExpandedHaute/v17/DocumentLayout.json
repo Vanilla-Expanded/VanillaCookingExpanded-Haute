@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded-haute\\1.5\\source\\vanillacookingexpandedhaute\\vanillacookingexpandedhaute\\comps\\compfoodart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\comps\\compfoodart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded-haute\\1.5\\source\\vanillacookingexpandedhaute\\vanillacookingexpandedhaute\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded-haute\\1.5\\source\\vanillacookingexpandedhaute\\vanillacookingexpandedhaute\\comps\\properties\\compproperties_foodart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\comps\\properties\\compproperties_foodart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded-haute\\1.5\\source\\vanillacookingexpandedhaute\\vanillacookingexpandedhaute\\itabs\\itab_foodart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\itabs\\itab_foodart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|VanillaCookingExpandedHaute||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded-haute\\1.5\\source\\vanillacookingexpandedhaute\\vanillacookingexpandedhaute\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITab_FoodArt.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\ITabs\\ITab_FoodArt.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\ITabs\\ITab_FoodArt.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\ITabs\\ITab_FoodArt.cs",
+              "RelativeToolTip": "VanillaCookingExpandedHaute\\ITabs\\ITab_FoodArt.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:59:05.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompFoodArt.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Comps\\CompFoodArt.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\Comps\\CompFoodArt.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Comps\\CompFoodArt.cs",
+              "RelativeToolTip": "VanillaCookingExpandedHaute\\Comps\\CompFoodArt.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAK0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:33:11.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompProperties_FoodArt.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Comps\\Properties\\CompProperties_FoodArt.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\Comps\\Properties\\CompProperties_FoodArt.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Comps\\Properties\\CompProperties_FoodArt.cs",
+              "RelativeToolTip": "VanillaCookingExpandedHaute\\Comps\\Properties\\CompProperties_FoodArt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:32:26.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InternalDefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs",
+              "RelativeToolTip": "VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:30:39.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VanillaCookingExpandedHaute",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj",
+              "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj",
+              "RelativeToolTip": "VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-07T09:29:50.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

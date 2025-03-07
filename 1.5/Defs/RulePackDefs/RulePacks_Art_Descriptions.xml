@@ -310,9 +310,12 @@
 
   <RulePackDef>
     <defName>VCE_MealArtDescriptionRoot</defName>
+	<include>
+      <li>VCE_MealDescriptionUtility_Global</li>
+    </include>
     <rulePack>
       <rulesStrings>
-        <li>r_art_description->A [decadent] [cut] of [preparation_method] [protein], [descriptor_importance]. [Carefully] [preparation_method] [delicate] [strands] of [vegetable1] add a [refined_contrast], while [delicate] [preparation_method] [vegetable2] [lends] [descriptor] and [descriptor] to the composition. A [whisper] of [condiment1], [descriptor_effect], intertwining with the [whisper] of [condiment2] for a truly [elevated] experience. [artistic_precision], each element is [goal_of_the_meal].</li>
+        <li>r_art_description->A [decadent] [cut] of [preparation_method] [protein], [descriptor_importance]. [Carefully] [preparation_method] [delicate] [strands] of [vegetable1] add a [refined_contrast], while [delicate] [preparation_method] [vegetable2] [lends] [descriptor] and [descriptor] to the composition. A [whisper] of [condiment1], [descriptor_effects], intertwining with the [whisper] of [condiment2] for a truly [elevated] experience. [artistic_precision], each element is [goal_of_the_meal].</li>
 
       </rulesStrings>
     </rulePack>
@@ -345,28 +348,6 @@
 		<li>decadent->decadent</li>
 		<li>decadent(p=6)-></li>
 
-		<li>cut->cut</li>		
-		<li>cut->portion</li>
-		<li>cut->slice</li>
-		<li>cut->piece</li>
-		<li>cut->serving</li>
-		<li>cut->segment</li>
-		<li>cut->shard</li>
-		<li>cut->wedge</li>
-		<li>cut->section</li>
-		<li>cut->morsel</li>
-		<li>cut->sliver</li>
-		<li>cut->nugget</li>
-		<li>cut->fragment</li>
-		<li>cut->bite</li>
-		<li>cut->medallion</li>
-		<li>cut->petal</li>
-		<li>cut->pearl</li>
-		<li>cut->floret</li>
-		<li>cut->crescent</li>
-		<li>cut->cube</li>
-		<li>cut->fillet</li>
-		
 		<li>refined_contrast->delicate contrast</li>
 		<li>refined_contrast->harmonious balance</li>
 		<li>refined_contrast->subtle interplay</li>
@@ -397,6 +378,27 @@
 		<li>refined_contrast->restrained contrast</li>
 		<li>refined_contrast->layered nuance</li>
 		<li>refined_contrast->thoughtful opposition</li>
+		<li>cut->cut</li>		
+		<li>cut->portion</li>
+		<li>cut->slice</li>
+		<li>cut->piece</li>
+		<li>cut->serving</li>
+		<li>cut->segment</li>
+		<li>cut->shard</li>
+		<li>cut->wedge</li>
+		<li>cut->section</li>
+		<li>cut->morsel</li>
+		<li>cut->sliver</li>
+		<li>cut->nugget</li>
+		<li>cut->fragment</li>
+		<li>cut->bite</li>
+		<li>cut->medallion</li>
+		<li>cut->petal</li>
+		<li>cut->pearl</li>
+		<li>cut->floret</li>
+		<li>cut->crescent</li>
+		<li>cut->cube</li>
+		<li>cut->fillet</li>
 		
 		<li>preparation_method->slow-cooked</li>
 		<li>preparation_method->charred to perfection</li>
