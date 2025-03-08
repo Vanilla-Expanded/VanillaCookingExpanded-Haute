@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\comps\\compfoodart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\vanillacookingexpandedhaute\\thought\\thought_hautemeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\thought\\thought_hautemeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\vanillacookingexpandedhaute\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\vanillacookingexpandedhaute\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\vanillacookingexpandedhaute\\thought\\thought_hautemeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|solutionrelative:vanillacookingexpandedhaute\\thought\\thought_hautemeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\vanillacookingexpandedhaute\\staticcollections\\staticcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Thought_HauteMeal.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Thought\\Thought_HauteMeal.cs",
               "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\Thought\\Thought_HauteMeal.cs",
@@ -77,7 +77,8 @@
               "RelativeToolTip": "VanillaCookingExpandedHaute\\Thought\\Thought_HauteMeal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T15:19:53.37Z"
+              "WhenOpened": "2025-03-07T15:19:53.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -85,25 +86,24 @@
               "Title": "IngestionOutcomeDoer_HauteMeal.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\IngestionOutcomeDoers\\IngestionOutcomeDoer_HauteMeal.cs",
               "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\IngestionOutcomeDoers\\IngestionOutcomeDoer_HauteMeal.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\IngestionOutcomeDoers\\IngestionOutcomeDoer_HauteMeal.cs*",
-              "RelativeToolTip": "VanillaCookingExpandedHaute\\IngestionOutcomeDoers\\IngestionOutcomeDoer_HauteMeal.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\IngestionOutcomeDoers\\IngestionOutcomeDoer_HauteMeal.cs",
+              "RelativeToolTip": "VanillaCookingExpandedHaute\\IngestionOutcomeDoers\\IngestionOutcomeDoer_HauteMeal.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T15:05:46.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GenRecipe_PostProcessProduct.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Harmony\\GenRecipe_PostProcessProduct.cs",
               "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\Harmony\\GenRecipe_PostProcessProduct.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Harmony\\GenRecipe_PostProcessProduct.cs*",
-              "RelativeToolTip": "VanillaCookingExpandedHaute\\Harmony\\GenRecipe_PostProcessProduct.cs*",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Harmony\\GenRecipe_PostProcessProduct.cs",
+              "RelativeToolTip": "VanillaCookingExpandedHaute\\Harmony\\GenRecipe_PostProcessProduct.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T13:51:13.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T13:51:13.491Z"
             },
             {
               "$type": "Document",
@@ -137,7 +137,7 @@
               "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\Comps\\CompFoodArt.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\Comps\\CompFoodArt.cs*",
               "RelativeToolTip": "VanillaCookingExpandedHaute\\Comps\\CompFoodArt.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAAACkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T09:33:11.162Z",
               "EditorCaption": ""
@@ -156,16 +156,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InternalDefOf.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs",
               "RelativeDocumentMoniker": "VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs*",
-              "RelativeToolTip": "VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs*",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.5\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs",
+              "RelativeToolTip": "VanillaCookingExpandedHaute\\DefOfs\\InternalDefOf.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T09:30:39.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T09:30:39.884Z"
             },
             {
               "$type": "Document",

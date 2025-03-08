@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using Verse.Grammar;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.UIElements;
 
 namespace VanillaCookingExpandedHaute
 {
@@ -37,8 +38,8 @@ namespace VanillaCookingExpandedHaute
                 
                 if (titleInt.NullOrEmpty())
                 {
-                    Log.Error("CompArt got title but it wasn't configured.");
-                    titleInt = "Error";
+                    //Log.Error("CompArt got title but it wasn't configured.");
+                    titleInt = "Empty";
                 }
                 return titleInt;
             }
@@ -198,18 +199,23 @@ namespace VanillaCookingExpandedHaute
             }
 
             CompIngredients compIngredients = this.parent.TryGetComp<CompIngredients>();
-            string protein = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.MeatRaw) == true || x.thingCategories?.Contains(InternalDefOf.AnimalProductRaw) == true).First().LabelCap;
-            string plant1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true).First().LabelCap;
-            string plant2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true && x.LabelCap != plant1).First().LabelCap;
-            string condiment1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(InternalDefOf.VCE_Condiments) == true).First().LabelCap;
-            string condiment2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(InternalDefOf.VCE_Condiments) == true && x.LabelCap != condiment1).First().LabelCap;
-            List<Rule> listRules = new List<Rule>();
-            listRules.Add(new Rule_String("protein", protein));
-            listRules.Add(new Rule_String("vegetable1", plant1));
-            listRules.Add(new Rule_String("vegetable2", plant2));
-            listRules.Add(new Rule_String("condiment1", condiment1));
-            listRules.Add(new Rule_String("condiment2", condiment2));
-            return taleRef.GenerateText(TextGenerationPurpose.ArtDescription, Props.descriptionMaker, listRules);
+            if (compIngredients?.ingredients.Count >0)
+            {
+                string protein = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.MeatRaw) == true || x.thingCategories?.Contains(InternalDefOf.AnimalProductRaw) == true).First().LabelCap;
+                string plant1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true).First().LabelCap;
+                string plant2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true && x.LabelCap != plant1).First().LabelCap;
+                string condiment1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(InternalDefOf.VCE_Condiments) == true).First().LabelCap;
+                string condiment2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(InternalDefOf.VCE_Condiments) == true && x.LabelCap != condiment1).First().LabelCap;
+                List<Rule> listRules = new List<Rule>();
+                listRules.Add(new Rule_String("protein", protein));
+                listRules.Add(new Rule_String("vegetable1", plant1));
+                listRules.Add(new Rule_String("vegetable2", plant2));
+                listRules.Add(new Rule_String("condiment1", condiment1));
+                listRules.Add(new Rule_String("condiment2", condiment2));
+                return taleRef.GenerateText(TextGenerationPurpose.ArtDescription, Props.descriptionMaker, listRules);
+            }
+            else return "";
+            
         }
 
         private string GenerateTitle(ArtGenerationContext context)
@@ -221,15 +227,19 @@ namespace VanillaCookingExpandedHaute
             }
 
             CompIngredients compIngredients = this.parent.TryGetComp<CompIngredients>();
-            string protein = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.MeatRaw) == true || x.thingCategories?.Contains(InternalDefOf.AnimalProductRaw) == true).First().LabelCap;
-            string plant1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true).First().LabelCap;
-            string plant2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true && x.LabelCap!=plant1).First().LabelCap;
+            if (compIngredients?.ingredients.Count > 0)
+            {
+                string protein = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.MeatRaw) == true || x.thingCategories?.Contains(InternalDefOf.AnimalProductRaw) == true).First().LabelCap;
+                string plant1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true).First().LabelCap;
+                string plant2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true && x.LabelCap != plant1).First().LabelCap;
 
-            List<Rule> listRules = new List<Rule>();
-            listRules.Add(new Rule_String("protein", protein));
-            listRules.Add(new Rule_String("vegetable1", plant1));
-            listRules.Add(new Rule_String("vegetable2", plant2));
-            return GenText.CapitalizeAsTitle(taleRef.GenerateText(TextGenerationPurpose.ArtName, Props.nameMaker, listRules));
+                List<Rule> listRules = new List<Rule>();
+                listRules.Add(new Rule_String("protein", protein));
+                listRules.Add(new Rule_String("vegetable1", plant1));
+                listRules.Add(new Rule_String("vegetable2", plant2));
+                return GenText.CapitalizeAsTitle(taleRef.GenerateText(TextGenerationPurpose.ArtName, Props.nameMaker, listRules));
+            }
+            else return "";
         }
     }
 }

@@ -68,10 +68,10 @@
 	</ThoughtDef>
 	<ThoughtDef>
 		<defName>VCE_AteHauteMeal_Social_Author</defName>
-		<thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
-		<stackLimit>10</stackLimit>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		 <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
 		<durationDays>10</durationDays>
-		<maxCumulatedOpinionOffset>50</maxCumulatedOpinionOffset>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
 		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
 		<socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
 		<nullifyingTraits>
@@ -86,10 +86,10 @@
 	</ThoughtDef>
 	<ThoughtDef>
 		<defName>VCE_AteHauteMeal_Social_Sharing</defName>
-		<thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
-		<stackLimit>10</stackLimit>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		 <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
 		<durationDays>20</durationDays>
-		<maxCumulatedOpinionOffset>50</maxCumulatedOpinionOffset>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
 		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
 		<socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
 		<nullifyingTraits>

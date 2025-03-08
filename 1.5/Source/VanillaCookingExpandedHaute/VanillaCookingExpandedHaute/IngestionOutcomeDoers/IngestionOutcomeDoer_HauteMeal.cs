@@ -23,19 +23,23 @@ namespace VanillaCookingExpandedHaute
                     thought_Memory.quality = compQuality.Quality;
                     pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_Memory);
 
-                    Thought_MemorySocialCumulative thought_SocialMemory = (Thought_MemorySocialCumulative)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Author);
+                    Thought_MemorySocial thought_SocialMemory = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Author);
                     if(pawn != compArt.authorPawn)
                     {
                         pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory, compArt.authorPawn);
 
                     }
-                    Thought_MemorySocialCumulative thought_SocialMemory_Sharing = (Thought_MemorySocialCumulative)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Sharing);
                     foreach (Pawn sharingPawn in pawn.Map.mapPawns.FreeColonists)
                     {
-                        if (sharingPawn.PositionHeld.InHorDistOf(pawn.PositionHeld, 2))
+                     
+                        if (sharingPawn!=pawn &&  sharingPawn.Position.InHorDistOf(pawn.Position, 4))
                         {
+
+                            Thought_MemorySocial thought_SocialMemory_Sharing_Other = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Sharing);
+                            sharingPawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory_Sharing_Other, pawn);
+                            Thought_MemorySocial thought_SocialMemory_Sharing = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Sharing);
                             pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory_Sharing, sharingPawn);
-                            sharingPawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory_Sharing, pawn);
+
 
                         }
                     }
