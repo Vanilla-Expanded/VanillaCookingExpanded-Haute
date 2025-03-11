@@ -11,9 +11,9 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>100</MarketValue>
-			<WorkToMake>7500</WorkToMake>
+			<WorkToMake>6000</WorkToMake>
 			<Nutrition>1</Nutrition>
-			<Beauty>10</Beauty>
+			<Beauty>20</Beauty>
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>

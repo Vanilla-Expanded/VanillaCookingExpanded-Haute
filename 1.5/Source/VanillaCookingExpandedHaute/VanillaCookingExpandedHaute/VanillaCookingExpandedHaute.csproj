@@ -297,6 +297,7 @@
     <Compile Include="Comps\CompFoodArt.cs" />
     <Compile Include="Comps\Properties\CompProperties_FoodArt.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Harmony\GenRecipe_MakeRecipeProducts.cs" />
     <Compile Include="Harmony\GenRecipe_PostProcessProduct.cs" />
     <Compile Include="Harmony\HarmonyUtility.cs" />
     <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_HauteMeal.cs" />

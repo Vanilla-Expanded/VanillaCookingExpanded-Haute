@@ -19,30 +19,36 @@ namespace VanillaCookingExpandedHaute
                     Thought_HauteMeal thought_Memory = (Thought_HauteMeal)ThoughtMaker.MakeThought(randomThought);
                     CompFoodArt compArt = ingested.TryGetComp<CompFoodArt>();
                     CompQuality compQuality = ingested.TryGetComp<CompQuality>();
-                    thought_Memory.mealThoughtLabel = compArt.Title;
-                    thought_Memory.quality = compQuality.Quality;
-                    pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_Memory);
 
-                    Thought_MemorySocial thought_SocialMemory = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Author);
-                    if(pawn != compArt.authorPawn)
+                    if(compArt.Title != "VCE_ManufacturedSlop".Translate())
                     {
-                        pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory, compArt.authorPawn);
+                        thought_Memory.mealThoughtLabel = compArt.Title;
+                        thought_Memory.quality = compQuality.Quality;
+                        pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_Memory);
 
-                    }
-                    foreach (Pawn sharingPawn in pawn.Map.mapPawns.FreeColonists)
-                    {
-                     
-                        if (sharingPawn!=pawn &&  sharingPawn.Position.InHorDistOf(pawn.Position, 4))
+                        Thought_MemorySocial thought_SocialMemory = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Author);
+                        if (pawn != compArt.authorPawn && compArt.authorPawn != null)
                         {
-
-                            Thought_MemorySocial thought_SocialMemory_Sharing_Other = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Sharing);
-                            sharingPawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory_Sharing_Other, pawn);
-                            Thought_MemorySocial thought_SocialMemory_Sharing = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Sharing);
-                            pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory_Sharing, sharingPawn);
-
+                            pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory, compArt.authorPawn);
 
                         }
+                        foreach (Pawn sharingPawn in pawn.Map.mapPawns.FreeColonists)
+                        {
+
+                            if (sharingPawn != pawn && sharingPawn.Position.InHorDistOf(pawn.Position, 8))
+                            {
+
+                                Thought_MemorySocial thought_SocialMemory_Sharing_Other = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Sharing);
+                                sharingPawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory_Sharing_Other, pawn);
+                                Thought_MemorySocial thought_SocialMemory_Sharing = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Sharing);
+                                pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(thought_SocialMemory_Sharing, sharingPawn);
+
+
+                            }
+                        }
                     }
+
+                   
                     
                    
                 }

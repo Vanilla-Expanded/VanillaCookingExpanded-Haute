@@ -23,6 +23,7 @@ namespace VanillaCookingExpandedHaute
         public static ThingCategoryDef VCE_Condiments;
 
         public static ThingDef VCE_MealHaute;
+        public static ThingDef VCE_ElectricHauteSection;
 
         public static ThoughtDef VCE_AteHauteMeal;
         public static ThoughtDef VCE_AteHauteMeal_Two;

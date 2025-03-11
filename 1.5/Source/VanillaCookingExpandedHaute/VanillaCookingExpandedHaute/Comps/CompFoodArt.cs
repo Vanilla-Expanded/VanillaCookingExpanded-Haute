@@ -19,6 +19,8 @@ namespace VanillaCookingExpandedHaute
 
         public Pawn authorPawn = null;
 
+      
+
         public TaggedString AuthorName
         {
             get
@@ -39,7 +41,8 @@ namespace VanillaCookingExpandedHaute
                 if (titleInt.NullOrEmpty())
                 {
                     //Log.Error("CompArt got title but it wasn't configured.");
-                    titleInt = "Empty";
+                    titleInt = "VCE_ManufacturedSlop".Translate();
+                   
                 }
                 return titleInt;
             }
@@ -194,12 +197,12 @@ namespace VanillaCookingExpandedHaute
         {
             if (taleRef == null)
             {
-                Log.Error("Did CompArt.GenerateImageDescription without initializing art: " + parent);
+                //Log.Error("Did CompArt.GenerateImageDescription without initializing art: " + parent);
                 InitializeArt(ArtGenerationContext.Outsider);
             }
 
             CompIngredients compIngredients = this.parent.TryGetComp<CompIngredients>();
-            if (compIngredients?.ingredients.Count >0)
+            if (compIngredients?.ingredients.Count > 0)
             {
                 string protein = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.MeatRaw) == true || x.thingCategories?.Contains(InternalDefOf.AnimalProductRaw) == true).First().LabelCap;
                 string plant1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true).First().LabelCap;
@@ -214,7 +217,7 @@ namespace VanillaCookingExpandedHaute
                 listRules.Add(new Rule_String("condiment2", condiment2));
                 return taleRef.GenerateText(TextGenerationPurpose.ArtDescription, Props.descriptionMaker, listRules);
             }
-            else return "";
+            else return "VCE_ManufacturedSlopDesc".Translate(); ;
             
         }
 

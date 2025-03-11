@@ -5,7 +5,7 @@
 		<defName>VCE_AteHauteMeal</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
-		<durationDays>1</durationDays>
+		<durationDays>2</durationDays>
 		<stages>
 			<li>
 				<label>ate haute meal</label>
@@ -18,7 +18,7 @@
 		<defName>VCE_AteHauteMeal_Two</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
-		<durationDays>1</durationDays>
+		<durationDays>2</durationDays>
 		<stages>
 			<li>
 				<label>ate haute meal</label>
@@ -31,7 +31,7 @@
 		<defName>VCE_AteHauteMeal_Three</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
-		<durationDays>1</durationDays>
+		<durationDays>2</durationDays>
 		<stages>
 			<li>
 				<label>ate haute meal</label>
@@ -44,7 +44,7 @@
 		<defName>VCE_AteHauteMeal_Four</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
-		<durationDays>1</durationDays>
+		<durationDays>2</durationDays>
 		<stages>
 			<li>
 				<label>ate haute meal</label>
@@ -57,7 +57,7 @@
 		<defName>VCE_AteHauteMeal_Five</defName>
 		<thoughtClass>VanillaCookingExpandedHaute.Thought_HauteMeal</thoughtClass>
 		<stackLimit>100</stackLimit>
-		
+		<durationDays>2</durationDays>
 		<stages>
 			<li>
 				<label>ate haute meal</label>
@@ -80,7 +80,7 @@
 		<stages>
 			<li>
 				<label>cooked a haute meal for me</label>
-				<baseOpinionOffset>5</baseOpinionOffset>
+				<baseOpinionOffset>10</baseOpinionOffset>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -98,7 +98,7 @@
 		<stages>
 			<li>
 				<label>shared the dining experience with me</label>
-				<baseOpinionOffset>5</baseOpinionOffset>
+				<baseOpinionOffset>10</baseOpinionOffset>
 			</li>
 		</stages>
 	</ThoughtDef>
