@@ -204,11 +204,11 @@ namespace VanillaCookingExpandedHaute
             CompIngredients compIngredients = this.parent.TryGetComp<CompIngredients>();
             if (compIngredients?.ingredients.Count > 0)
             {
-                string protein = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.MeatRaw) == true || x.thingCategories?.Contains(InternalDefOf.AnimalProductRaw) == true).First().LabelCap;
-                string plant1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true).First().LabelCap;
-                string plant2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true && x.LabelCap != plant1).First().LabelCap;
-                string condiment1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(InternalDefOf.VCE_Condiments) == true).First().LabelCap;
-                string condiment2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(InternalDefOf.VCE_Condiments) == true && x.LabelCap != condiment1).First().LabelCap;
+                string protein = compIngredients.ingredients.Where(x => x.IsWithinCategory(ThingCategoryDefOf.MeatRaw)|| x.IsWithinCategory(InternalDefOf.AnimalProductRaw)).First().LabelCap;
+                string plant1 = compIngredients.ingredients.Where(x => x.IsWithinCategory(ThingCategoryDefOf.PlantFoodRaw) ).First().LabelCap;
+                string plant2 = compIngredients.ingredients.Where(x => x.IsWithinCategory(ThingCategoryDefOf.PlantFoodRaw) && x.LabelCap != plant1).First().LabelCap;
+                string condiment1 = compIngredients.ingredients.Where(x => x.IsWithinCategory(InternalDefOf.VCE_Condiments) ).First().LabelCap;
+                string condiment2 = compIngredients.ingredients.Where(x => x.IsWithinCategory(InternalDefOf.VCE_Condiments) && x.LabelCap != condiment1).First().LabelCap;
                 List<Rule> listRules = new List<Rule>();
                 listRules.Add(new Rule_String("protein", protein));
                 listRules.Add(new Rule_String("vegetable1", plant1));
@@ -232,9 +232,9 @@ namespace VanillaCookingExpandedHaute
             CompIngredients compIngredients = this.parent.TryGetComp<CompIngredients>();
             if (compIngredients?.ingredients.Count > 0)
             {
-                string protein = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.MeatRaw) == true || x.thingCategories?.Contains(InternalDefOf.AnimalProductRaw) == true).First().LabelCap;
-                string plant1 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true).First().LabelCap;
-                string plant2 = compIngredients.ingredients.Where(x => x.thingCategories?.Contains(ThingCategoryDefOf.PlantFoodRaw) == true && x.LabelCap != plant1).First().LabelCap;
+                string protein = compIngredients.ingredients.Where(x => x.IsWithinCategory(ThingCategoryDefOf.MeatRaw) || x.IsWithinCategory(InternalDefOf.AnimalProductRaw)).First().LabelCap;
+                string plant1 = compIngredients.ingredients.Where(x => x.IsWithinCategory(ThingCategoryDefOf.PlantFoodRaw)).First().LabelCap;
+                string plant2 = compIngredients.ingredients.Where(x => x.IsWithinCategory(ThingCategoryDefOf.PlantFoodRaw) && x.LabelCap != plant1).First().LabelCap;
 
                 List<Rule> listRules = new List<Rule>();
                 listRules.Add(new Rule_String("protein", protein));
