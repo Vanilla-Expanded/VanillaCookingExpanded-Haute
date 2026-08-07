@@ -45,7 +45,11 @@ namespace VanillaCookingExpandedHaute
                                     if (compQuality.Quality < QualityCategory.Legendary)
                                     {
                                         compQuality.SetQuality(compQuality.Quality + 1, null);
-                                        Messages.Message("VCE_ItemImproved_HauteSection".Translate(labelOld, compQuality.Quality.ToString()), worker, MessageTypeDefOf.PositiveEvent, null, historical: false);
+                                        if (VanillaCookingExpandedHaute_Settings.displayImprovementMessages)
+                                        {
+                                            Messages.Message("VCE_ItemImproved_HauteSection".Translate(labelOld, compQuality.Quality.ToString()), worker, MessageTypeDefOf.PositiveEvent, null, historical: false);
+
+                                        }
                                     }
                                     
                                 }

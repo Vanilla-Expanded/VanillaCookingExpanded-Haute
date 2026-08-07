@@ -30,8 +30,7 @@
 	<RecipeDef ParentName="VCE_CookHauteMealBase">
 		<defName>VCE_CookMealHaute</defName>
 		<label>cook haute meal</label>
-		<description>Compose an opulent symphony of flavor and form, where the finest ingredients and
-      masterful technique unite in a transcendent culinary masterpiece.</description>
+		<description>Compose an opulent symphony of flavor and form, where the finest ingredients and masterful technique unite in a transcendent culinary masterpiece.</description>
 		<jobString>Cooking haute meal.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>

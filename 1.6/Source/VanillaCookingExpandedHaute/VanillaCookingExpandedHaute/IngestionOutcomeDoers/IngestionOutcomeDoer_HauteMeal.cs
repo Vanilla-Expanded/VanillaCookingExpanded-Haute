@@ -35,7 +35,7 @@ namespace VanillaCookingExpandedHaute
                         foreach (Pawn sharingPawn in pawn.Map.mapPawns.FreeColonists)
                         {
 
-                            if (sharingPawn != pawn && sharingPawn.Position.InHorDistOf(pawn.Position, 8))
+                            if (sharingPawn != pawn && sharingPawn.Position.InHorDistOf(pawn.Position, VanillaCookingExpandedHaute_Settings.distance))
                             {
 
                                 Thought_MemorySocial thought_SocialMemory_Sharing_Other = (Thought_MemorySocial)ThoughtMaker.MakeThought(InternalDefOf.VCE_AteHauteMeal_Social_Sharing);

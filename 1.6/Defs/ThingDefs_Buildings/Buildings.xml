@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>VCE_ElectricHauteSection</defName>
 		<label>electric haute section</label>
@@ -85,6 +84,7 @@
 				</statOffsets>
 				<maxSimultaneous>3</maxSimultaneous>
 			</li>
+			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<placeWorkers>

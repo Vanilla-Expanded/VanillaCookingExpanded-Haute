@@ -8,5 +8,10 @@
 	<VCE_ManufacturedSlop>Manufactured slop</VCE_ManufacturedSlop>
 	<VCE_ManufacturedSlopDesc>This haute meal wasn't created by a true chef, and is thus not very good.</VCE_ManufacturedSlopDesc>
 
+	<VCE_DisplayImprovementMessages>Display Improvement Messages</VCE_DisplayImprovementMessages>
+	<VCE_DisplayImprovementMessages_Desc>By default, if a haute station improves the quality of a meal a message will pop up informing the player. These messages can be toggled off with this mod option.</VCE_DisplayImprovementMessages_Desc>
+	<VCE_DistanceForSocial>Distance in tiles for social effect</VCE_DistanceForSocial>
+	<VCE_DistanceForSocial_Desc>By default, colonists in an 8 tile radius of the pawn that consumes a haute meal will get an opinion boost.</VCE_DistanceForSocial_Desc>
+	<VCE_Reset>Reset</VCE_Reset>
 
 </LanguageData>
