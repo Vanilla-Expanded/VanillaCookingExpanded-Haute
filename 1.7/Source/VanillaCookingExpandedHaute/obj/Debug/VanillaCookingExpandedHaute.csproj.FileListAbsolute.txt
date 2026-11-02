@@ -1,0 +1,8 @@
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Haute\1.7\Assemblies\VanillaCookingExpandedHaute.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Haute\1.7\Source\VanillaCookingExpandedHaute\obj\Debug\VanillaCookingExpandedHaute.csproj.AssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Haute\1.7\Source\VanillaCookingExpandedHaute\obj\Debug\VanillaCookingExpandedHaute.GeneratedMSBuildEditorConfig.editorconfig
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Haute\1.7\Source\VanillaCookingExpandedHaute\obj\Debug\VanillaCookingExpandedHaute.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Haute\1.7\Source\VanillaCookingExpandedHaute\obj\Debug\VanillaCookingExpandedHaute.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Haute\1.7\Source\VanillaCookingExpandedHaute\obj\Debug\refint\VanillaCookingExpandedHaute.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Haute\1.7\Source\VanillaCookingExpandedHaute\obj\Debug\ref\VanillaCookingExpandedHaute.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Haute\1.7\Source\VanillaCookingExpandedHaute\obj\Debug\VanillaC.AEEB7CB8.Up2Date

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>VCE_HauteCuisine</defName>
+		<label>haute cuisine</label>
+		<tab>VCE_Cooking</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Haute cuisine is the pinnacle of culinary artistry, emphasizing meticulous preparation, refined techniques, and exquisite presentation. It transforms the finest ingredients into visually stunning and harmoniously balanced dishes, elevating dining to an experience of sophistication. This research also unlocks the haute section, a specialized workstation for crafting these masterful creations.</description>
+		<baseCost>600</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->culinary artistry</li>
+				<li>subject_story->perfected the delicate balance of flavors, elevating cooking to an art form</li>
+				<li>subject_story->trained under master chefs, mastering techniques passed down through generations</li>
+				<li>subject_story->founded an elite dining establishment, attracting nobles and connoisseurs alike</li>
+				<li>subject_gerund->crafting exquisite haute dishes</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wJT8Taao9lY=",
+  "success": true,
+  "projectFilePath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded-Haute\\1.7\\Source\\VanillaCookingExpandedHaute\\VanillaCookingExpandedHaute.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\lib.harmony\\2.4.3\\lib.harmony.2.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}
